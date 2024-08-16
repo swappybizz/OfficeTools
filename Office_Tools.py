@@ -198,7 +198,7 @@ with st.sidebar:
                         "↗", key=f"pick_{agent['_id']}", use_container_width=True
                     ):
                         st.session_state.selected_agent = agent
-                st.divider()
+                # st.divider()
                 st.write(agent["userTitle"])
                         
 with tab1:
