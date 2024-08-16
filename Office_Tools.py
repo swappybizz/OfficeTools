@@ -199,7 +199,8 @@ with st.sidebar:
                     ):
                         st.session_state.selected_agent = agent
                 # st.divider()
-                st.write(agent["userTitle"])
+                # st.write(agent["userTitle"])
+                f"Bot Helps with :red[{agent['userTitle']}]"
                         
 with tab1:
     if st.session_state.selected_agent:
