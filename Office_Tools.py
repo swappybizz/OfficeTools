@@ -185,7 +185,7 @@ tab1, tab2 = st.tabs(["ToolBox", "QueryBoard"])
 with st.sidebar:
     st.title("Swapnil's Office Bots")
     agents = get_all_agents()
-    with st.container(border=True, height=700):
+    with st.container(border=False, height=700):
         for idx, agent in enumerate(agents):
             with st.container(border=True):
                 agentcol1, agentcol2 = st.columns(
