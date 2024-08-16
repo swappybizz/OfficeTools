@@ -183,7 +183,7 @@ if "client_chat_history" not in st.session_state:
 
 tab1, tab2 = st.tabs(["ToolBox", "QueryBoard"])
 with st.sidebar:
-
+    st.title("Swapnil's Office Bots")
     agents = get_all_agents()
     with st.container(border=True, height=700):
         for idx, agent in enumerate(agents):
